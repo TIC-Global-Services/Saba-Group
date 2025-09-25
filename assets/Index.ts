@@ -44,6 +44,14 @@ import Acheive6 from './Achievements/Acheive6.png';
 
 // Careers
 import CareersHero from './Careers/Careers-Hero.jpg';
+import CareerHistoryImg from './Careers/CareerHistory.jpg';
+import ImageGallery1 from './Careers/ImageGallery1.jpg';
+import ImageGallery2 from './Careers/ImageGallery2.jpg';
+import ImageGallery3 from './Careers/ImageGallery3.jpg';
+import ImageGallery4 from './Careers/ImageGallery4.jpg';
+import ImageGallery5 from './Careers/ImageGallery5.jpg';
+import ImageGallery6 from './Careers/ImageGallery6.jpg';
+import Internship from './Careers/Internships.png';
 
 // Products
 import LeatherHero from './Products/Leather.jpg';
@@ -132,6 +140,7 @@ export {
   Acheive3,
   Acheive4,
   Acheive5,
+<<<<<<< HEAD
   Acheive6
 
   // Products/leather
@@ -166,4 +175,15 @@ export {
   ,PollutionCert
   ,SunBluesCert
   ,Projects
+=======
+  Acheive6,
+  CareerHistoryImg,
+  ImageGallery1,
+  ImageGallery2,
+  ImageGallery3,
+  ImageGallery4,
+  ImageGallery5,
+  ImageGallery6,
+  Internship
+>>>>>>> 9403e3f1f5668a937cf53fe6ed2e029b914a7272
 }

@@ -55,7 +55,7 @@ const FAQ = () => {
             {/* Question Button */}
             <button
               onClick={() => toggleFAQ(index)}
-              className="w-full px-8 py-6 text-left flex items-center justify-between group focus:outline-none focus:ring-none rounded-2xl transition-colors duration-200"
+              className="w-full md:px-8 py-6 text-left flex items-center justify-between group focus:outline-none focus:ring-none rounded-2xl transition-colors duration-200"
             >
               <h3
                 className={`
@@ -91,7 +91,7 @@ const FAQ = () => {
               }
             `}
             >
-              <div className="px-8 pb-6">
+              <div className="md:px-8 pb-6">
                 <div
                   className={`
                   border-t border-gray-100 pt-6 transition-all duration-300
@@ -110,8 +110,8 @@ const FAQ = () => {
 
       {/* Bottom CTA */}
       <div className="mt-12 ">
-        <div className="  rounded-2xl p-8 border border-gray-200 flex justify-between items-center">
-          <p className="font-medium text-xl">
+        <div className="  rounded-2xl p-8 border border-gray-200 flex flex-col md:flex-row justify-between items-center space-y-4">
+          <p className="font-medium text-lg md:text-xl text-center md:text-left">
             Can't find what you're looking for?<br /> Contact us here:
           </p>
           <Link href={'tel:+91 -8179987444'} className="inline-flex items-center px-6 py-3 border border-gray-300 text-light font-medium rounded-xl  duration-200  transform hover:scale-105 transition-transform">

@@ -53,7 +53,7 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between px-6 py-3">
         {/* Logo */}
-        <div>
+        <Link href={'/'}>
           <Image
             src={"/saba-group-logo.png"}
             alt="Saba Group Logo"
@@ -61,7 +61,7 @@ const Navbar = () => {
             height={70}
             className="object-contain"
           />
-        </div>
+        </Link>
 
         {/* Desktop Nav Links */}
         <div
