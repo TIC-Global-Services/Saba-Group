@@ -80,6 +80,10 @@ import TJ from "@/assets/Products/Leather/GlobalPartners/TJ.png"
 import Trumpler from "@/assets/Products/Leather/GlobalPartners/Trumpler.png"
 
 
+// Products/healthcare
+import HealthCareBanner from '@/assets/Products/HealthCare/HealthCareBanner.png';
+import CTAbg from '@/assets/Products/HealthCare/CTAbg.png';
+
 // Products/footwear
 import FootWearBanner from '@/assets/Products/FootWear/FootWearBanner.png';
 import WhatWeOfferImg from '@/assets/Products/FootWear/WhatWeOffer.png';
@@ -140,7 +144,6 @@ export {
   Acheive3,
   Acheive4,
   Acheive5,
-<<<<<<< HEAD
   Acheive6
 
   // Products/leather
@@ -161,6 +164,10 @@ export {
   ,TJ
 
   // Poducts/footwear
+  ,HealthCareBanner
+  ,CTAbg
+
+  // Poducts/footwear
   ,FootWearBanner
   ,WhatWeOfferImg
 
@@ -175,9 +182,7 @@ export {
   ,PollutionCert
   ,SunBluesCert
   ,Projects
-=======
-  Acheive6,
-  CareerHistoryImg,
+  ,CareerHistoryImg,
   ImageGallery1,
   ImageGallery2,
   ImageGallery3,
@@ -185,5 +190,4 @@ export {
   ImageGallery5,
   ImageGallery6,
   Internship
->>>>>>> 9403e3f1f5668a937cf53fe6ed2e029b914a7272
 }
