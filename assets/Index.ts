@@ -15,7 +15,7 @@ import Pielcolor from './GlobalPartnership/Pielcolor.jpg';
 import Protima from './GlobalPartnership/Protima.png';
 import QuinnItaliana from './GlobalPartnership/QuinnItaliana.png';
 import TandJ from './GlobalPartnership/T&J.png';
-import Trumpler from './GlobalPartnership/Trumpler.png';
+// import Trumpler from './GlobalPartnership/Trumpler.png';
 
 // About
 import AboutHero from './About/About-Hero.jpg';
@@ -52,6 +52,43 @@ import InfraHero from './Products/Infra.jpg';
 import HealthcareHero from './Products/Healthcare.jpg';
 import FootwearHero from './Products/Footwear.jpg';
 
+
+// Products/leather
+import ProductBanner from "@/assets/Products/ProductBanner.png";
+import ChemicalDivisionImg from "@/assets/Products/LeatherChemical.png";
+import Col1Row1 from "@/assets/Products/Leather/ChemicalSolution/Col1Row1.png";
+import Col1Row2 from "@/assets/Products/Leather/ChemicalSolution/Col1Row2.png";
+import Col1Row3 from "@/assets/Products/Leather/ChemicalSolution/Col1Row3.png";
+import Col2Row1 from "@/assets/Products/Leather/ChemicalSolution/Col2Row1.png";
+import Col2Row3 from "@/assets/Products/Leather/ChemicalSolution/Col2Row3.png";
+import Col3Row1 from "@/assets/Products/Leather/ChemicalSolution/Col3Row1.png";
+import Col4Row1 from "@/assets/Products/Leather/ChemicalSolution/Col4Row1.png";
+import Col4Row2 from "@/assets/Products/Leather/ChemicalSolution/Col4Row2.png";
+import CenterImg from "@/assets/Products/Leather/ChemicalSolution/CenterImg.png";
+
+import Dytan from "@/assets/Products/Leather/GlobalPartners/Dytan.png"
+import Peicolor from "@/assets/Products/Leather/GlobalPartners/Peicolor.png"
+import TJ from "@/assets/Products/Leather/GlobalPartners/TJ.png"
+import Trumpler from "@/assets/Products/Leather/GlobalPartners/Trumpler.png"
+
+
+// Products/footwear
+import FootWearBanner from '@/assets/Products/FootWear/FootWearBanner.png';
+import WhatWeOfferImg from '@/assets/Products/FootWear/WhatWeOffer.png';
+
+// Products/infra
+import InfraBanner from '@/assets/Products/Infra/InfraBanner.png';
+import InfraChemicalDivison from '@/assets/Products/Infra/ChemicalDivison.png';
+import PollutionCert from '@/assets/Products/Infra/PollutionCert.png';
+import SunBluesCert from '@/assets/Products/Infra/SunBluesCert.png';
+import Projects from '@/assets/Products/Infra/Projects.png';
+
+// Products/farming
+import RisaFarm from '@/assets/Products/Farming/RisaFarm.png';
+import AboutRisaForm from '@/assets/Products/Farming/AboutRisaForm.png';
+import OurVisionImg from '@/assets/Products/Farming/OurVision.png';
+
+
 // Icon
 import CircleIcon from './Icons/CircleIcon.svg';
 
@@ -83,7 +120,6 @@ export {
   Protima,
   QuinnItaliana,
   TandJ,
-  Trumpler,
   CareersHero,
   LeatherHero,
   FarmingHero,
@@ -97,4 +133,37 @@ export {
   Acheive4,
   Acheive5,
   Acheive6
+
+  // Products/leather
+  ,ProductBanner
+  ,ChemicalDivisionImg
+  ,Col1Row1
+  ,Col1Row2
+  ,Col1Row3
+  ,Col2Row1
+  ,Col2Row3
+  ,Col3Row1
+  ,Col4Row1
+  ,Col4Row2
+  ,CenterImg
+  ,Trumpler
+  ,Dytan
+  ,Peicolor
+  ,TJ
+
+  // Poducts/footwear
+  ,FootWearBanner
+  ,WhatWeOfferImg
+
+  // Poducts/Risa farm
+  ,RisaFarm
+  ,AboutRisaForm
+  ,OurVisionImg
+
+  // Poducts/Infra
+  ,InfraBanner
+  ,InfraChemicalDivison
+  ,PollutionCert
+  ,SunBluesCert
+  ,Projects
 }
