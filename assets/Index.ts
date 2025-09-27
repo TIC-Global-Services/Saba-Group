@@ -1,65 +1,64 @@
 // Home
-import HomeHero from './Home/home-hero.jpg';
-import AboutSaba from './Home/about-saba.jpg';
+import HomeHero from "./Home/home-hero.jpg";
+import AboutSaba from "./Home/about-saba.jpg";
 
-import Leather from './BusinessDivisions/Leather.jpg';
-import Farming from './BusinessDivisions/Farm.jpg';
-import Infra from './BusinessDivisions/Infra.jpg';
-import Healthcare from './BusinessDivisions/Herbal.jpg';
-import Footwear from './BusinessDivisions/Shoe.jpg';
+import Leather from "./BusinessDivisions/Leather.jpg";
+import Farming from "./BusinessDivisions/Farm.jpg";
+import Infra from "./BusinessDivisions/Infra.jpg";
+import Healthcare from "./BusinessDivisions/Herbal.jpg";
+import Footwear from "./BusinessDivisions/Shoe.jpg";
 
-import ACI from './GlobalPartnership/ACI.png';
-import Essebi from './GlobalPartnership/Essebi.jpg';
-import Henkel from './GlobalPartnership/Henkel.png';
-import Pielcolor from './GlobalPartnership/Pielcolor.jpg';
-import Protima from './GlobalPartnership/Protima.png';
-import QuinnItaliana from './GlobalPartnership/QuinnItaliana.png';
-import TandJ from './GlobalPartnership/T&J.png';
+import ACI from "./GlobalPartnership/ACI.png";
+import Essebi from "./GlobalPartnership/Essebi.jpg";
+import Henkel from "./GlobalPartnership/Henkel.png";
+import Pielcolor from "./GlobalPartnership/Pielcolor.jpg";
+import Protima from "./GlobalPartnership/Protima.png";
+import QuinnItaliana from "./GlobalPartnership/QuinnItaliana.png";
+import TandJ from "./GlobalPartnership/T&J.png";
 // import Trumpler from './GlobalPartnership/Trumpler.png';
 
 // About
-import AboutHero from './About/About-Hero.jpg';
-import ExpImg from './About/Exp-Img.jpg';
-import Special from './About/special.jpg';
-import TechSupport from './About/support.jpg';
-import Delivery from './About/delivery.jpg';
-import Mission from './About/Mission.jpg';
-import StateOfArt from './About/StateofArt.jpg';
-import WaterBased from './About/WaterBased.jpg';
-import SolventBased from './About/SolventBased.jpg';
-import Hotmelts from './About/Hotmelts.jpg';
-import Lamination from './About/Lamination.jpg';
+import AboutHero from "./About/About-Hero.jpg";
+import ExpImg from "./About/Exp-Img.jpg";
+import Special from "./About/special.jpg";
+import TechSupport from "./About/support.jpg";
+import Delivery from "./About/delivery.jpg";
+import Mission from "./About/Mission.jpg";
+import StateOfArt from "./About/StateofArt.jpg";
+import WaterBased from "./About/WaterBased.jpg";
+import SolventBased from "./About/SolventBased.jpg";
+import Hotmelts from "./About/Hotmelts.jpg";
+import Lamination from "./About/Lamination.jpg";
 
 // Board of Directors
-import Sabapathy from './BoardOfDirectors/Sabapathy.jpg';
-import Baladitya from './BoardOfDirectors/Baladitya.jpg';
+import Sabapathy from "./BoardOfDirectors/Sabapathy.jpg";
+import Baladitya from "./BoardOfDirectors/Baladitya.jpg";
 
 // Acheivements
-import Acheive1 from './Achievements/Acheive1.png';
-import Acheive2 from './Achievements/Acheive2.png';
-import Acheive3 from './Achievements/Acheive3.png';
-import Acheive4 from './Achievements/Acheive4.png';
-import Acheive5 from './Achievements/Acheive5.png';
-import Acheive6 from './Achievements/Acheive6.png';
+import Acheive1 from "./Achievements/Acheive1.png";
+import Acheive2 from "./Achievements/Acheive2.png";
+import Acheive3 from "./Achievements/Acheive3.png";
+import Acheive4 from "./Achievements/Acheive4.png";
+import Acheive5 from "./Achievements/Acheive5.png";
+import Acheive6 from "./Achievements/Acheive6.png";
 
 // Careers
-import CareersHero from './Careers/Careers-Hero.jpg';
-import CareerHistoryImg from './Careers/CareerHistory.jpg';
-import ImageGallery1 from './Careers/ImageGallery1.jpg';
-import ImageGallery2 from './Careers/ImageGallery2.jpg';
-import ImageGallery3 from './Careers/ImageGallery3.jpg';
-import ImageGallery4 from './Careers/ImageGallery4.jpg';
-import ImageGallery5 from './Careers/ImageGallery5.jpg';
-import ImageGallery6 from './Careers/ImageGallery6.jpg';
-import Internship from './Careers/Internships.png';
+import CareersHero from "./Careers/Careers-Hero.jpg";
+import CareerHistoryImg from "./Careers/CareerHistory.jpg";
+import ImageGallery1 from "./Careers/ImageGallery1.jpg";
+import ImageGallery2 from "./Careers/ImageGallery2.jpg";
+import ImageGallery3 from "./Careers/ImageGallery3.jpg";
+import ImageGallery4 from "./Careers/ImageGallery4.jpg";
+import ImageGallery5 from "./Careers/ImageGallery5.jpg";
+import ImageGallery6 from "./Careers/ImageGallery6.jpg";
+import Internship from "./Careers/Internships.png";
 
 // Products
-import LeatherHero from './Products/Leather.jpg';
-import FarmingHero from './Products/Farming.jpg';
-import InfraHero from './Products/Infra.jpg';
-import HealthcareHero from './Products/Healthcare.jpg';
-import FootwearHero from './Products/Footwear.jpg';
-
+import LeatherHero from "./Products/Leather.jpg";
+import FarmingHero from "./Products/Farming.jpg";
+import InfraHero from "./Products/Infra.jpg";
+import HealthcareHero from "./Products/Healthcare.jpg";
+import FootwearHero from "./Products/Footwear.jpg";
 
 // Products/leather
 import ProductBanner from "@/assets/Products/ProductBanner.png";
@@ -74,35 +73,36 @@ import Col4Row1 from "@/assets/Products/Leather/ChemicalSolution/Col4Row1.png";
 import Col4Row2 from "@/assets/Products/Leather/ChemicalSolution/Col4Row2.png";
 import CenterImg from "@/assets/Products/Leather/ChemicalSolution/CenterImg.png";
 
-import Dytan from "@/assets/Products/Leather/GlobalPartners/Dytan.png"
-import Peicolor from "@/assets/Products/Leather/GlobalPartners/Peicolor.png"
-import TJ from "@/assets/Products/Leather/GlobalPartners/TJ.png"
-import Trumpler from "@/assets/Products/Leather/GlobalPartners/Trumpler.png"
-
+import Dytan from "@/assets/Products/Leather/GlobalPartners/Dytan.png";
+import Peicolor from "@/assets/Products/Leather/GlobalPartners/Peicolor.png";
+import TJ from "@/assets/Products/Leather/GlobalPartners/TJ.png";
+import Trumpler from "@/assets/Products/Leather/GlobalPartners/Trumpler.png";
 
 // Products/healthcare
-import HealthCareBanner from '@/assets/Products/HealthCare/HealthCareBanner.png';
-import CTAbg from '@/assets/Products/HealthCare/CTAbg.png';
+import HealthCareBanner from "@/assets/Products/HealthCare/HealthCareBanner.png";
+import CTAbg from "@/assets/Products/HealthCare/CTAbg.png";
 
 // Products/footwear
-import FootWearBanner from '@/assets/Products/FootWear/FootWearBanner.png';
-import WhatWeOfferImg from '@/assets/Products/FootWear/WhatWeOffer.png';
+import FootWearBanner from "@/assets/Products/FootWear/FootWearBanner.png";
+import WhatWeOfferImg from "@/assets/Products/FootWear/WhatWeOffer.png";
 
 // Products/infra
-import InfraBanner from '@/assets/Products/Infra/InfraBanner.png';
-import InfraChemicalDivison from '@/assets/Products/Infra/ChemicalDivison.png';
-import PollutionCert from '@/assets/Products/Infra/PollutionCert.png';
-import SunBluesCert from '@/assets/Products/Infra/SunBluesCert.png';
-import Projects from '@/assets/Products/Infra/Projects.png';
+import InfraBanner from "@/assets/Products/Infra/InfraBanner.png";
+import InfraChemicalDivison from "@/assets/Products/Infra/ChemicalDivison.png";
+import PollutionCert from "@/assets/Products/Infra/PollutionCert.png";
+import SunBluesCert from "@/assets/Products/Infra/SunBluesCert.png";
+import Projects from "@/assets/Products/Infra/Projects.png";
 
 // Products/farming
-import RisaFarm from '@/assets/Products/Farming/RisaFarm.png';
-import AboutRisaForm from '@/assets/Products/Farming/AboutRisaForm.png';
-import OurVisionImg from '@/assets/Products/Farming/OurVision.png';
+import RisaFarm from "@/assets/Products/Farming/RisaFarm.png";
+import AboutRisaForm from "@/assets/Products/Farming/AboutRisaForm.png";
+import OurVisionImg from "@/assets/Products/Farming/OurVision.png";
 
+// contact
+import ContactFromBg from "@/assets/Contact/FormImg.png";
 
 // Icon
-import CircleIcon from './Icons/CircleIcon.svg';
+import CircleIcon from "./Icons/CircleIcon.svg";
 
 export {
   HomeHero,
@@ -144,50 +144,53 @@ export {
   Acheive3,
   Acheive4,
   Acheive5,
-  Acheive6
+  Acheive6,
 
   // Products/leather
-  ,ProductBanner
-  ,ChemicalDivisionImg
-  ,Col1Row1
-  ,Col1Row2
-  ,Col1Row3
-  ,Col2Row1
-  ,Col2Row3
-  ,Col3Row1
-  ,Col4Row1
-  ,Col4Row2
-  ,CenterImg
-  ,Trumpler
-  ,Dytan
-  ,Peicolor
-  ,TJ
+  ProductBanner,
+  ChemicalDivisionImg,
+  Col1Row1,
+  Col1Row2,
+  Col1Row3,
+  Col2Row1,
+  Col2Row3,
+  Col3Row1,
+  Col4Row1,
+  Col4Row2,
+  CenterImg,
+  Trumpler,
+  Dytan,
+  Peicolor,
+  TJ,
 
   // Poducts/footwear
-  ,HealthCareBanner
-  ,CTAbg
+  HealthCareBanner,
+  CTAbg,
 
   // Poducts/footwear
-  ,FootWearBanner
-  ,WhatWeOfferImg
+  FootWearBanner,
+  WhatWeOfferImg,
 
   // Poducts/Risa farm
-  ,RisaFarm
-  ,AboutRisaForm
-  ,OurVisionImg
+  RisaFarm,
+  AboutRisaForm,
+  OurVisionImg,
 
   // Poducts/Infra
-  ,InfraBanner
-  ,InfraChemicalDivison
-  ,PollutionCert
-  ,SunBluesCert
-  ,Projects
-  ,CareerHistoryImg,
+  InfraBanner,
+  InfraChemicalDivison,
+  PollutionCert,
+  SunBluesCert,
+  Projects,
+  CareerHistoryImg,
   ImageGallery1,
   ImageGallery2,
   ImageGallery3,
   ImageGallery4,
   ImageGallery5,
   ImageGallery6,
-  Internship
-}
+  Internship,
+
+  // contact
+  ContactFromBg,
+};

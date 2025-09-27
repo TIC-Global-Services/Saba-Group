@@ -11,13 +11,11 @@ import HealthCareClient from '@/components/Products/Healthcare/HealthCareClient'
 
 const Page = () => {
   const { slug } = useParams<{ slug: string }>();
-
   if (slug === 'leather') return <LeatherClient />;
   if (slug === 'footwear') return <FootWearClient />;
   if (slug === 'farming') return <FarmingClient />;
   if (slug === 'infra') return <InfraDivisionClient />;
   if (slug === 'healthcare') return <HealthCareClient />;
-  // if (slug === 'healthcare') return <Healthcare />;
   return <NotFound />;
 };
 
