@@ -49,7 +49,7 @@ const OurMission = () => {
           <div className="flex gap-4">
             <div className="bg-white rounded-xl p-6 text-center">
               <h1 className="text-2xl md:text-3xl font-extrabold text-secondary">
-                200+
+                600+
               </h1>
               <p className="text-gray-600 text-sm md:text-base mt-1">
                 Employees

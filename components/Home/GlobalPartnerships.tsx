@@ -66,14 +66,14 @@ const GlobalPartnerships = () => {
       </div>
 
       {/* Logos Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 items-center justify-items-center">
+      <div className="grid grid-cols-4 gap-4 md:gap-8 items-center justify-items-center">
         {partners.map((partner, index) => (
           <div
             key={index}
             ref={(el) => {
               if (el) logosRef.current[index] = el;
             }}
-            className="w-32 h-32 relative"
+            className=" w-20 h-20 md:w-32 md:h-32 relative"
           >
             <Image
               src={partner}

@@ -86,9 +86,9 @@ const BusinessDivisions = () => {
           />
           <div className="absolute inset-0 bg-black/30 rounded-xl"></div>
           <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white px-4 py-2 rounded-full flex justify-between items-center w-full">
-            <h1 className="text-xl font-bold">Risa Form</h1>
+            <h1 className="text-xl font-bold">Risa farm</h1>
             <Link
-              href={"/products/forming"}
+              href={"/products/farming"}
               className="bg-white rounded-full px-6 py-1 text-secondary font-medium"
             >
               View More
@@ -130,9 +130,9 @@ const BusinessDivisions = () => {
           />
           <div className="absolute inset-0 bg-black/30 rounded-xl"></div>
           <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white px-4 py-2 rounded-full flex justify-between items-center w-full">
-            <h1 className="text-xl font-bold">Herbal</h1>
+            <h1 className="text-xl font-bold">Healthcare</h1>
             <Link
-              href={"/products/herbal"}
+              href={"/products/healthcare"}
               className="bg-white rounded-full px-6 py-1 text-secondary font-medium"
             >
               View More
@@ -154,7 +154,7 @@ const BusinessDivisions = () => {
           <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white px-4 py-2 rounded-full flex justify-between items-center w-full">
             <h1 className="text-xl font-bold">Shoe Division</h1>
             <Link
-              href={"/products/leather"}
+              href={"/products/footwear"}
               className="bg-white rounded-full px-6 py-1 text-secondary font-medium"
             >
               View More

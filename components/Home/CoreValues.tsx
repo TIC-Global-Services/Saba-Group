@@ -31,12 +31,12 @@ const CoreValues = () => {
         </h1>
       </div>
       <div>
-        <div className=" grid grid-cols-1 md:grid-cols-2 space-x-4">
+        <div className=" grid grid-cols-2 md:space-x-4 gap-3">
             {values.map((value, idx)=>(
-                <div key={idx} className=" bg-[#f5f5f5] p-4 md:p-6 rounded-2xl space-y-4 mb-4">
+                <div key={idx} className=" bg-[#f5f5f5] p-4 md:p-6 rounded-2xl space-y-4 mb-4 w-full">
                     <Image src={CircleIcon} alt="Circle" width={25} />
-                    <h2 className=" font-semibold text-lg">{value.title}</h2>
-                    <p className=" text-gray-600">{value.desc}</p>
+                    <h2 className=" font-semibold text-base md:text-lg">{value.title}</h2>
+                    <p className=" text-gray-600 text-sm md:text-base">{value.desc}</p>
                 </div>
             ))}
         </div>

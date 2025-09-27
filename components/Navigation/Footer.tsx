@@ -29,7 +29,7 @@ const Footer = () => {
         {/* Top section */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-10">
           {/* Logo + tagline */}
-          <div className="flex flex-col md:flex-row items-center justify-between w-full md:w-[60%] text-center md:text-left space-y-3 animate-fadeIn">
+          <div className="flex flex-col md:flex-row md:items-center justify-between w-full md:w-[60%]  space-y-3 animate-fadeIn">
             <Image
               src="/saba-group-logo.png"
               alt="Saba Group Logo"
@@ -38,7 +38,7 @@ const Footer = () => {
               className="transition-transform duration-300 hover:scale-105"
             />
             <p className="text-lg font-medium max-w-md">
-              Saba Group - Pioneering Excellence in speciality <br />
+              Saba Group - Pioneering Excellence in speciality 
               chemicals & Industry Solutions
             </p>
           </div>
@@ -61,7 +61,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="space-y-3">
+            {/* <div className="space-y-3">
               <h1 className="text-lg font-medium uppercase text-light">Socials</h1>
               <div className="flex space-x-5">
                 {Socials.map((item, index) => (
@@ -76,7 +76,7 @@ const Footer = () => {
                   </Link>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -84,9 +84,9 @@ const Footer = () => {
         <hr className="border-gray-300" />
 
         {/* Bottom section */}
-        <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10 animate-fadeIn delay-300">
+        <div className="flex flex-col-reverse md:flex-row md:items-center justify-between gap-10 animate-fadeIn delay-300">
           {/* Left info */}
-          <div className="text-center md:text-left space-y-3">
+          <div className="text-left space-y-3">
             <p>
               © {new Date().getFullYear()} Design & Developed by{" "}
               <Link
@@ -97,7 +97,7 @@ const Footer = () => {
                 TIC
               </Link>
             </p>
-            <div className="flex items-center justify-center md:justify-start gap-5">
+            <div className="flex items-center justify-start gap-5">
               <Link
                 href="/privacy"
                 className="hover:text-secondary transition-colors"
